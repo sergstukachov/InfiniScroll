@@ -1,3 +1,5 @@
-<div class="infiniscroll-container">
-    <h1>This is ...</h1>
+<div class="infiniscroll-container" data-bind="afterRender: setContainerElement">
+    <!-- ko foreach: items -->
+    <!-- ko template: getTemplate() --><!-- /ko -->
+    <!-- /ko -->
 </div>
